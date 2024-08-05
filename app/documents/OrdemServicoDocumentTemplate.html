@@ -1,0 +1,60 @@
+
+
+<html>
+<head>
+</head>
+<body>
+<p style="margin: 1px 0px; text-align: center;">ORDEM DE SERVIÇO  # {$id}</p>
+<p style="margin: 1px 0px; text-align: center;"> </p>
+<table style="border-collapse: collapse; width: 100%;" border="1">
+<tbody>
+<tr>
+<td style="width: 25%;" colspan="2">Cliente: {$cliente->nome}</td>
+<td style="width: 25%;">Data de inicio:</td>
+<td style="width: 25%;">{$data_inicio}</td>
+</tr>
+<tr>
+<td style="width: 25%;"> </td>
+<td style="width: 25%;"> </td>
+<td style="width: 25%;">
+<p style="margin: 1px 0;">Data de fim:</p>
+<p style="margin: 1px 0;"> </p>
+</td>
+<td style="width: 25%;">{$data_fim}</td>
+</tr>
+<tr>
+<td style="width: 25%;" colspan="4">Descrição: {$descricao}</td>
+</tr>
+</tbody>
+</table>
+<p style="margin: 1px 0;"> </p>
+<table class="mce-table" style="border-collapse: collapse; border: 1px solid #929292; height: 80px; width: 0px;" border="1" width="350px" cellspacing="0" cellpadding="3" data-detailmodel="OrdemServicoAtendimento.ordem_servico_id">
+<thead>
+<tr style="background-color: #96c0e6;">
+<th style="width: 140.396px;">Ordem de servico</th>
+<th style="width: 106.135px;">Problema</th>
+<th style="width: 92.2188px;">Solucao</th>
+<th style="width: 77.7396px;">Causa</th>
+<th style="width: 146.333px;">Data</th>
+<th style="width: 94.5px;">Inicio</th>
+<th style="width: 79.7188px;">Hora fim</th>
+<th style="width: 98.5px;">Observacao</th>
+<th style="width: 89.0938px;">Tecnico</th>
+</tr>
+</thead>
+<tbody>
+<tr style="background-color: #f0f0f0;">
+<td style="width: 140.396px;">{$ordem_servico_id}</td>
+<td style="width: 106.135px;">{$problema_id}</td>
+<td style="width: 92.2188px;">{$solucao_id}</td>
+<td style="width: 77.7396px;">{$causa_id}</td>
+<td style="width: 146.333px;">{$data_atendimento}</td>
+<td style="width: 94.5px;">{$hora_inicio}</td>
+<td style="width: 79.7188px;">{$hora_fim}</td>
+<td style="width: 98.5px;">{$observacao}</td>
+<td style="width: 89.0938px;">{$tecnico_id}</td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>
